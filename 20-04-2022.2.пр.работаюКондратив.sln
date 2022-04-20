@@ -9,10 +9,10 @@ namespace _20_04_2022._2.пр.работаюКондратив
     internal class Program
     {
         static void Main(string[] args)
-        {
+        {////////////////////////////////////////////////////////////////
             //1 ЗАДАНИЕ
 
-            /*double a, b, c, s, d, v;
+            double a, b, c, s, d, v;
 
             Console.Write("a = ");
             a = double.Parse(Console.ReadLine());
@@ -33,13 +33,13 @@ namespace _20_04_2022._2.пр.работаюКондратив
             Console.WriteLine("Произведение = " + v);
             Console.WriteLine("Сумма = " + d);
 
-            Console.ReadLine();*/
+            Console.ReadLine();
 
             ////////////////////////////////////////////////////////////////////////////////////
             // 2 ЗАДАНИЕ
 
 
-            /* double A,B, D, x1, x2, y1, y2;
+             double A,B, D, x1, x2, y1, y2;
 
              Console.Write("x1 = ");
              x1 = double.Parse(Console.ReadLine());
@@ -53,17 +53,18 @@ namespace _20_04_2022._2.пр.работаюКондратив
              Console.Write("y2 = ");
              y2 = double.Parse(Console.ReadLine());
 
-
              D = Math.Sqrt( Math.Pow (x2-x1,2) + Math.Pow (y2-y1, 2) );
 
              Console.WriteLine("D = " + D );
-
-             Console.Read();*/
-            ///////////////////////////////////////////////////////////////////////////////
-            /*
-             3 ЗАДАНИЕ
-             * 
-             * Random rnd = new Random();
+             Console.Read();
+             
+             
+             
+              //////////////////////////////////////////////////////////////////////////
+             /////3 ЗАДАНИЕ
+             
+             
+             Random rnd = new Random();
             int wer = rnd.Next(100,999);
 
             Console.WriteLine(wer);
@@ -72,10 +73,13 @@ namespace _20_04_2022._2.пр.работаюКондратив
            //  123
                 //  1, 2 , 3
 
-            Console.Read();*/
+            Console.Read();
+            
+            
+            
             ///////////////////////////////////////////////////////////////////////////////////////
-            //4 ЗАДАНИЕ
-            /* int a, b;
+            //  4 ЗАДАНИЕ
+                int a, b;
 
              Console.Write("a = ");
               a = Convert.ToInt32(Console.ReadLine());
@@ -91,12 +95,15 @@ namespace _20_04_2022._2.пр.работаюКондратив
              Console.WriteLine("a = " + a);
              Console.WriteLine("b = " + b);
 
-             Console.ReadKey(); */
+             Console.ReadKey(); 
+             
+             
+             
 
             ///////////////////////////////////////////////////////////////////////////////////////
-            //5 Задание без помщи 3-й переменный
+            //  5 Задание без помщи 3-й переменный
 
-            /*int a, b;
+            int a, b;
 
             Console.Write("a = ");
             a = Convert.ToInt32(Console.ReadLine());
@@ -110,12 +117,13 @@ namespace _20_04_2022._2.пр.работаюКондратив
 
             Console.WriteLine("a = " + a);
             Console.WriteLine("b = " + b);
-            Console.ReadKey();*/
+            Console.ReadKey();
+
 
             //////////////////////////////////////////////////////////////////////////////////
-            ///6 ЗАДАНИЕ
+            ///  6 ЗАДАНИЕ
             ///
-            /*Console.Write("Введите число: ");
+            Console.Write("Введите число: ");
             try
             {
                 int i = int.Parse(Console.ReadLine());
@@ -128,13 +136,15 @@ namespace _20_04_2022._2.пр.работаюКондратив
                 Console.WriteLine("Вы ввели не целое число");
 
             }
-            Console.ReadKey();*/
-            //////////////////////////////////////////////////////////////////////////////////////////
-            ///8 ЗАДАНИЕ 
-            ///
+            Console.ReadKey();
+            
+            
+            
+            ///////////////////////////////////////////////////////////////////////////////////////
+           ///8 ЗАДАНИЕ
 
 
-            /*int x, y, v;
+            int x, y, v;
 
             Console.Write("x = ");
             x = int.Parse(Console.ReadLine());
@@ -144,11 +154,14 @@ namespace _20_04_2022._2.пр.работаюКондратив
             v = (int) Math.Pow(x, y);
 
             Console.WriteLine("v = " + v);
-            Console.ReadKey();*/
+            Console.ReadKey();
+            
+            
+            
             ////////////////////////////////////////////////////////////////////////////////////
             ///9 ЗАДАНИЕ
-            ///
-            /*int a, b, c, d;
+            
+            int a, b, c, d;
             Console.Write("a = ");
             a = int.Parse(Console.ReadLine());
 
@@ -158,26 +171,13 @@ namespace _20_04_2022._2.пр.работаюКондратив
             a=d*b;
 
             Console.WriteLine("a = " + a);
-            Console.Read();*/
-            ///////////////////////////////////////////////////////////////////////////////////
-            //14 ЗАДАНИЕ
-
-            /*double r, S, C;
-
-            Console.Write("r = ");
-            r = double.Parse(Console.ReadLine());
-
-            C =2 * Math.PI * r;
-            Console.WriteLine("C = " + C);
-
+            Console.Read();
             
             
-            S = Math.PI * r;
-            Console.WriteLine("S = " + S);
-            Console.ReadKey();*/
-            ////////////////////////////////////////////////////////////////////////////////////
-            ///12 ЗАДАНИЕ
-            ///
+            
+            ////////////////////////////////////////////////////////////////////////////////////////////////
+             ///12 ЗАДАНИЕ
+            
 
             int a, b, c;
             Console.Write("a = ");
@@ -194,12 +194,32 @@ namespace _20_04_2022._2.пр.работаюКондратив
             }
 
             Console.Read();
+            
+            
+            
+            ///////////////////////////////////////////////////////////////////////////////////
+            //14 ЗАДАНИЕ
 
+            double r, S, C;
 
+            Console.Write("r = ");
+            r = double.Parse(Console.ReadLine());
 
+            C =2 * Math.PI * r;
+            Console.WriteLine("C = " + C);
 
+            
+            
+            S = Math.PI * r;
+            Console.WriteLine("S = " + S);
+            Console.ReadKey();
+            
+            
+            ///////////////////////////////////////////////////////////////////////////////
             ///15 ЗАДАНИЕ
-            /*double a, b, s, o, w;
+            
+            
+            double a, b, s, o, w;
             Console.Write("Масса = ");
             a = double.Parse(Console.ReadLine());
 
@@ -214,15 +234,7 @@ namespace _20_04_2022._2.пр.работаюКондратив
             Console.WriteLine("Процент испарение килограмм в день = " + s);
             Console.WriteLine("Конечный масса за 30 дней = " + w);
 
-            Console.ReadKey();*/
-
-
-
-
-
-
-
-
+            Console.ReadKey();
 
 
         }
